@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Readex+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    padding: 1rem 6.5rem;
+    background: #222;  
+    z-index: 100000;
+}
+.nav h2{
+    color: #283618;
+    font-size: 1.7rem;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: cen;
+}
+#item li{
+    list-style: none;
+    padding-right: 50px;
+}
+
+#item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#item li a:hover, #item .icon i:hover{
+    color: #ff5733;
+    cursor: pointer;
+
+
+}
+#item .icon i{
+    color: #fff;
+    padding-right: 30px ;
+    font-weight: bolder;
+}
+
+
+.back{
+    background-image: url(bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mid p{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+    
+}
+
+.mid .btn{ 
+    margin-top: 2rem;
+
+}
+
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.mid .btn a.simple{
+    color: #fff;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+}
+.mid .btn a.simple:hover{
+    color: #ff5733;
+}
+.mid .btn a.border{
+    color: #ff5733;
+    border: 1px solid #ff5733;
+    font-weight: 500;
+    padding: 0.5rem 1.6rem;
+}
+.mid .btn a.border:hover{
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 15rem;
+    background: #171819;
+
+}
+.details h3,h6,h5{
+    color: #fff;
+}
+.details .one{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.details .one h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem ;
+
+}
+
+.details .one h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    padding-bottom: 1.1rem ;
+    
+}
+.details .one p{
+    color: #666262;
+    font-size: 1.2rem;
+    padding-bottom: 3rem ;
+    
+}
+.details .one a{
+    color: #fff;
+    background: #f13a11;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.details .one a:hover{
+    color: white;
+    background: blueviolet;
+
+
+}
+
+.details .two{
+    width: 45%;
+    border-left: 1px solid grey;
+    padding-left: 4rem;
+}
+
+.details .two  h3{
+    font-size: 2.4rem;
+    padding-bottom: 1.1rem;
+}
+.details .two h5{
+    font-size: 1.1rem;
+
+}
+.details .two p{
+    font-size: 1.1rem;
+    color: #f13a11;
+    margin-bottom: 0.6rem;
+
+}
+.trainer{
+    background: #f9f9f9;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer .about{
+    width: 40%;
+
+}
+
+.trainer .people{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.trainer .about h2{
+    color: #212529;
+    font-size: 1.8rem;
+    padding-bottom: 1.4rem;
+
+}
+
+.trainer .about p{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.trainer .people .team1{
+    width: 59%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+    
+}
+
+.trainer .people .team1 .img img{
+    width: 100% ;
+    object-fit: cover ;
+    
+}
+
+.trainer .people .team1 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer .people .team1 .pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer .people .team1 .teamdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.trainer .people .team1 .name h4{
+    color: #212529;
+    font-size: 1.2rem;
+    padding-bottom: 0.8px;
+
+}
+.trainer .people .team1 .name i{
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #212529;
+}
+.trainer .people .team1 .name{
+    padding: 5px 20px 0px 20px;
+}
+
+.trainer .people .team1 .pro i{
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #212529;
+}
+
+.trainer .people .team1 .pro p{
+    color: #212529;
+    font-size: 12px;
+    
+}
+
+.trainer .people .team1 .pro{
+    padding: 5px 20px 0 20px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    padding: 7rem 8rem;
+}
+
+.class .paragraph{
+    font-size: 1.3rem;
+    color: #7f8c8d;
+    padding-bottom: 0.7rem;
+    text-align: center;
+}
+
+.class .h2{
+    font-size: 2.1rem;
+    color: #212529;
+    font-weight: 700;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.class .classmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class .classmenu .team1{
+    width: 32%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+        
+    }
+    
+    .class .classmenu .team1 .img img{
+        width: 100% ;
+        object-fit: cover ;
+        
+        
+    }
+    .class .classmenu .team1 .teamdetails{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .class .classmenu .team1 .teamdetails .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 30px 0px 30px;
+
+    }
+    .class .classmenu .team1 .teamdetails .name .namedetails h4{
+        font-size: 1.7rem;
+        color: #212529;
+        padding-bottom: 3px;
+
+    }
+    .class .classmenu .team1 .teamdetails .name .namedetails p{
+        font-size: 1.1rem;
+        color: #212529;
+    }
+    .class .classmenu .team1 .teamdetails .name .namedetails p span{
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    .class .classmenu .team1 .teamdetails .name .num h5{
+        
+        font-size: 1rem;
+        background: #f13a11;
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .class .classmenu .team1 .pro{
+        padding: 15px 30px 30px 30px;
+    }
+    .class .classmenu .team1 .pro p{
+        
+        font-size: 1.1rem;
+        color: #666262;
+        
+    }
+    .contact{
+        padding: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .contact .form{
+        width: 45%;
+
+    }
+
+    .contact .form h2{
+        padding-bottom: 10px;
+        color: #212529;
+        font-size: 2rem;
+        width: 100%;
+
+
+    }
+
+    .contact .form .submit{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact .form .submit input{
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #95a5a6;
+        outline: none;
+        margin: 13px 0;
+    }
+
+    .contact .form .submit textarea{
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #95a5a6;
+        outline: none ;
+        margin: 13px 0px ;
+    }
+    .contact .form .submit input:focus , .contact .form .submit textarea{
+        border: 1px solid #111;
+    }
+
+    .contact .form .submit input::placeholder{
+        font-size: 1.1rem;
+        color: #7f8c8d;
+        height: 80%;
+    }
+    .contact .form .submit a{
+        width: 100%;
+        padding: 15px 0;
+        text-decoration: none;
+        background: #111;
+        color: #fff;
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 13px 0;
+    }
+
+    .contact .form .submit a:hover{
+        background: grey;
+
+    }
+    .contact .map{
+        width: 40%;
+    }
+    .contact .map h2{
+        padding-bottom: 15px;
+        color: #212529;
+        font-size: 2rem;
+        width: 100%;
+        
+
+    }
+
+    .contact .map p{
+        font-size: 1rem;
+        color: #212529;
+        padding-bottom: 22  px;
+        width: 100%;
+    }
+    .contact .map p i {
+        color: red;
+        padding-right: 4px;
+    }
+
+    .contact .map iframe{
+        width: 100%;
+    }
+    .footer{
+        border-top: 1px solid #ecf0f1;
+        padding: 5rem 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer p{
+        color: #7f8c8d;
+        justify-content: flex-start;
+    }
+    .footer p i{
+        color: red;
+        padding-right: 5px;
+    }

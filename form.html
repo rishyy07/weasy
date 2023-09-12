@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="rg.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepage.css">
+	<style>
+body {
+   background-image: url("newbg.jpeg");
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
+}
+</style>
+	</head>
+	<body>
+		<div class="nav" style="height: 10%; background-color: #283618; position: relative;">
+			<img  src="logo.jpeg" alt="" height="70px" width="200px">
+			<ul id="item">
+	
+				
+	
+				<li><a href="homepage.htm">Home</a></li>
+				<li><a href="weasy.html">About</a></li>
+				<li><a href="product.html">Products</a><target="_blank"></target></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="form.html">Your Orders</a></li>
+				<li><a href="delivered.html">Delivery</a></li>
+				<li><a href="index.html">Chat with us</a>   </li>
+				<div class="icon">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+	
+				</div>
+			</ul> 
+		</div>
+        <img src="pexels-pixabay-462119.jpg" alt="" height="500px" width="100%">
+		
+
+		<form>
+			<fieldset>
+			<div>
+				<legend>
+				<h1 style="text-align: center;">Order Details</h1>
+				</legend>
+			</div>
+			<p><h4>Please complete all sections of this form. if you wish to order successfully.You can make your payment by cash or net banking and leave the 'contact information' section blank</h4>
+			Contact us for any assistance.</p>
+			<h2 style="background-color: rgba(212, 157, 131, 0.808)" ;>CONTACT INFORMATION</h2>
+		<label for="name">NAME:</label>
+		<input id="name" type="" name="username" required><br><br>
+		<label for ="email">EMAIL:</label>
+      <input id="email" type="" name="username" required><br><br>
+      <label for ="PHONE">PHONE NUMBER:</label>
+      <input id="PHONE" type="" name="username" required><br>
+      <p>ADDRESS:<textarea name="address" id="address" cols="8" rows="5"></textarea></p>
+      <label for="text">COMPANY(if any):</label>
+      <input id="text" type="" name="comapany" required><br><br>
+      <label for="name">CITY:</label>
+		<input id="name" type="" name="username" required><br><br>
+		<label for="name">STATE:</label>
+		<input id="name" type="" name="username" required><br><br>
+		<label for="name">POST CODE:</label>
+		<input id="name" type="" name="username" required><br><br>
+		<h2 style="background-color: rgb(193, 172, 197)" ;>AMOUNT DETAILS</h2><br>
+<label for="TEXT">DONATION AMOUNT:</label><br><br>
+<input type="radio" id="TEXT" name="DONATION AMOUNT">$25<input type="radio" id="TEXT" name="DONATION AMOUNT">$50<input type="radio" id="TEXT" name="DONATION AMOUNT">$100<input type="radio" id="TEXT" name="DONATION AMOUNT">$250<input type="radio" id="TEXT" name="DONATION AMOUNT">$500 
+<label for="NUMBER">OTHER AMOUNT:</label>
+		<input id="NUMBER" type="" name="OTHER AMOUNT" required><br><br>
+		<h2 style="background-color: rgb(121, 154, 156)" ;>PAYMENT INFORMATION</h2><br>
+		<label for="TEXT">PAYMENT THROUGH:</label><BR>
+<input type="radio" id="TEXT" name="PAYMENT THROUGH">cheque<br><input type="radio" id="TEXT" name="PAYMENT THROUGH">cash enclosed(no coins please)<br><input type="radio" id="TEXT" name="PAYMENT THROUGH">credit card<br><input type="radio" id="text" name="PAYMENT THROUGH">debit card<br>
+<label>
+	your card :
+	<input id="card" list="card type">
+</label>
+<datalist id="card type">
+	<label>or select from a list:
+		<select name="cardoption">
+	<option value=""></option>
+	<option>mastercard</option>
+		<option>visa</option>
+			<option>rupay</option>
+				<option>maestro</option>
+				</select>
+			</label>
+</datalist>
+		<!-- <button type="button" class="pay-now-btn">
+		Netbanking options
+		</button> -->
+	<div class="card-details">
+		<p>Pay using Credit or Debit card</p>
+
+		<div class="card-number">
+		<label> Card Number </label>
+		<input
+			type="text"
+			class="card-number-field"
+			placeholder="###-###-###"/>
+		</div><br>
+		<br />
+		<div class="date-number">
+		<label> Expiry Date </label>
+		<input type="text" class="date-number-field"
+				placeholder="DD-MM-YY" />
+		</div>
+      <br>
+		<div class="cvv-number"><br>
+		<label> CVV number </label>
+		<input type="text" class="cvv-number-field"
+				placeholder="xxx" />
+		</div>
+		<div class="nameholder-number"><br>
+		<label> Card Holder name </label>
+		<input
+			type="text"
+			class="card-name-field"
+			placeholder="Enter your Name"/></div></div></fieldset>
+		</div><br>
+		<fieldset style="background-color:rgba(138, 109, 141, 0.082)";>
+			Send completed donation forms via fax or post:<br>
+			<label for="fax">Fax:&nbsp;</label>
+			<input type="text" name="post">
+			<br><br>
+
+			<label for="post">Post:</label>
+			<textarea name="post" id="" cols="13" rows="3"></textarea>
+			<a href="payment.html"><h4>click here to fill bank details!</h4></a>
+
+		</fieldset>
+		<br><br>
+		<button type="submit" class="submit-now-btn" >Submit</button><br><br>
+		</form>
+	
+	</body>
+	</html>
+</body>
+</html>
